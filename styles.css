@@ -1,0 +1,111 @@
+header{
+    padding: 100px;
+    text-align: center;
+    background-image: url(img/paisaje\ 1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*{
+    margin: 0%;
+}
+
+body{
+    background-color:#8097b0;
+    font-family: cursive;
+     
+}
+table, td, th {
+    border: .1px solid black;
+    border-collapse: collapse;
+}
+
+th , td{
+    padding: 5px;
+}
+th {
+    text-align: left;
+}
+h2 {
+    color: rgb(4, 4, 4);
+}
+h1{
+    color: beige;
+    
+    margin: 20px;
+    padding: 2px;
+    
+}
+
+.text-center {
+    text-align: center;
+}
+
+p{
+    margin: 12px;
+    font-size: 20px;
+}
+
+img{
+    border-radius: 10px;
+}
+
+header div{
+    background-color: rgb(0, 0, 0, 0.56);
+    border-radius: 10px;
+    color: azure;
+    padding: 50px;
+   
+}
+background-image {
+    width: 700px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(94, 134, 94);
+
+}
+
+
+.navbar a{
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+.navbar a:hover{
+    background-color: rgb(95, 241, 46);
+}
+
+@media screen  and (max-width: 700px){
+    .navbar, .row{
+        flex-direction: column;
+    }
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+aside{
+    flex: 30%;
+    padding: 20px;
+    background-color: rgb(169, 169, 169);
+    background-image: url(img/paisaje2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    flex: 70%;
+    padding: 20px;
+    background-color: white;
+
+    }
+    h3{
+        color: rgb(11, 11, 11);
+    }
+
+    
